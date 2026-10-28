@@ -31,10 +31,11 @@ PROJECTRELATIVE_PATH =
 O = $(PROJECT_OUTPUT_DIR)/$(CONFIGNAME)/$(PROJECTRELATIVE_PATH)
 
 # Object files for local .cc, .msg and .sm files
-OBJS = $O/NoeudJeton.o $O/NoeudPeriodique.o $O/results/Noeud.o
+OBJS = $O/NoeudJeton.o $O/NoeudPeriodique.o $O/Noeuds.o $O/results/Noeud.o $O/RouteMsg_m.o
 
 # Message files
-MSGFILES =
+MSGFILES = \
+    RouteMsg.msg
 
 # SM files
 SMFILES =

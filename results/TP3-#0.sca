@@ -1,0 +1,196 @@
+version 3
+run TP3-0-20261028-22:57:14-16276
+attr configname TP3
+attr datetime 20261028-22:57:14
+attr datetimef 20261028-225714
+attr experiment TP3
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network ReseauRoute
+attr processid 16276
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network ReseauRoute
+
+par ReseauRoute.noeud[0].p$o[0].channel typename "\"ned.DelayChannel\""
+par ReseauRoute.noeud[0].p$o[0].channel disabled false
+attr mutable ""
+par ReseauRoute.noeud[0].p$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par ReseauRoute.noeud[1].p$o[0].channel typename "\"ned.DelayChannel\""
+par ReseauRoute.noeud[1].p$o[0].channel disabled false
+attr mutable ""
+par ReseauRoute.noeud[1].p$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par ReseauRoute.noeud[0].p$o[1].channel typename "\"ned.DelayChannel\""
+par ReseauRoute.noeud[0].p$o[1].channel disabled false
+attr mutable ""
+par ReseauRoute.noeud[0].p$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par ReseauRoute.noeud[2].p$o[0].channel typename "\"ned.DelayChannel\""
+par ReseauRoute.noeud[2].p$o[0].channel disabled false
+attr mutable ""
+par ReseauRoute.noeud[2].p$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par ReseauRoute.noeud[1].p$o[1].channel typename "\"ned.DelayChannel\""
+par ReseauRoute.noeud[1].p$o[1].channel disabled false
+attr mutable ""
+par ReseauRoute.noeud[1].p$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par ReseauRoute.noeud[4].p$o[0].channel typename "\"ned.DelayChannel\""
+par ReseauRoute.noeud[4].p$o[0].channel disabled false
+attr mutable ""
+par ReseauRoute.noeud[4].p$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par ReseauRoute.noeud[4].p$o[1].channel typename "\"ned.DelayChannel\""
+par ReseauRoute.noeud[4].p$o[1].channel disabled false
+attr mutable ""
+par ReseauRoute.noeud[4].p$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par ReseauRoute.noeud[6].p$o[0].channel typename "\"ned.DelayChannel\""
+par ReseauRoute.noeud[6].p$o[0].channel disabled false
+attr mutable ""
+par ReseauRoute.noeud[6].p$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par ReseauRoute.noeud[4].p$o[2].channel typename "\"ned.DelayChannel\""
+par ReseauRoute.noeud[4].p$o[2].channel disabled false
+attr mutable ""
+par ReseauRoute.noeud[4].p$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par ReseauRoute.noeud[7].p$o[0].channel typename "\"ned.DelayChannel\""
+par ReseauRoute.noeud[7].p$o[0].channel disabled false
+attr mutable ""
+par ReseauRoute.noeud[7].p$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par ReseauRoute.noeud[2].p$o[1].channel typename "\"ned.DelayChannel\""
+par ReseauRoute.noeud[2].p$o[1].channel disabled false
+attr mutable ""
+par ReseauRoute.noeud[2].p$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par ReseauRoute.noeud[3].p$o[0].channel typename "\"ned.DelayChannel\""
+par ReseauRoute.noeud[3].p$o[0].channel disabled false
+attr mutable ""
+par ReseauRoute.noeud[3].p$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par ReseauRoute.noeud[2].p$o[2].channel typename "\"ned.DelayChannel\""
+par ReseauRoute.noeud[2].p$o[2].channel disabled false
+attr mutable ""
+par ReseauRoute.noeud[2].p$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par ReseauRoute.noeud[5].p$o[0].channel typename "\"ned.DelayChannel\""
+par ReseauRoute.noeud[5].p$o[0].channel disabled false
+attr mutable ""
+par ReseauRoute.noeud[5].p$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par ReseauRoute.noeud[2].p$o[3].channel typename "\"ned.DelayChannel\""
+par ReseauRoute.noeud[2].p$o[3].channel disabled false
+attr mutable ""
+par ReseauRoute.noeud[2].p$o[3].channel delay 0.1s
+attr mutable ""
+attr unit s
+par ReseauRoute.noeud[7].p$o[1].channel typename "\"ned.DelayChannel\""
+par ReseauRoute.noeud[7].p$o[1].channel disabled false
+attr mutable ""
+par ReseauRoute.noeud[7].p$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par ReseauRoute.noeud[5].p$o[1].channel typename "\"ned.DelayChannel\""
+par ReseauRoute.noeud[5].p$o[1].channel disabled false
+attr mutable ""
+par ReseauRoute.noeud[5].p$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par ReseauRoute.noeud[8].p$o[0].channel typename "\"ned.DelayChannel\""
+par ReseauRoute.noeud[8].p$o[0].channel disabled false
+attr mutable ""
+par ReseauRoute.noeud[8].p$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par ReseauRoute.noeud[7].p$o[2].channel typename "\"ned.DelayChannel\""
+par ReseauRoute.noeud[7].p$o[2].channel disabled false
+attr mutable ""
+par ReseauRoute.noeud[7].p$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par ReseauRoute.noeud[8].p$o[1].channel typename "\"ned.DelayChannel\""
+par ReseauRoute.noeud[8].p$o[1].channel disabled false
+attr mutable ""
+par ReseauRoute.noeud[8].p$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par ReseauRoute.noeud[7].p$o[3].channel typename "\"ned.DelayChannel\""
+par ReseauRoute.noeud[7].p$o[3].channel disabled false
+attr mutable ""
+par ReseauRoute.noeud[7].p$o[3].channel delay 0.1s
+attr mutable ""
+attr unit s
+par ReseauRoute.noeud[9].p$o[0].channel typename "\"ned.DelayChannel\""
+par ReseauRoute.noeud[9].p$o[0].channel disabled false
+attr mutable ""
+par ReseauRoute.noeud[9].p$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par ReseauRoute.noeud[8].p$o[2].channel typename "\"ned.DelayChannel\""
+par ReseauRoute.noeud[8].p$o[2].channel disabled false
+attr mutable ""
+par ReseauRoute.noeud[8].p$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par ReseauRoute.noeud[9].p$o[1].channel typename "\"ned.DelayChannel\""
+par ReseauRoute.noeud[9].p$o[1].channel disabled false
+attr mutable ""
+par ReseauRoute.noeud[9].p$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par ReseauRoute.noeud[0] typename "\"NoeudRoute\""
+scalar ReseauRoute.noeud[0] #received 1
+scalar ReseauRoute.noeud[0] #sent 2
+par ReseauRoute.noeud[1] typename "\"NoeudRoute\""
+scalar ReseauRoute.noeud[1] #received 4
+scalar ReseauRoute.noeud[1] #sent 4
+par ReseauRoute.noeud[2] typename "\"NoeudRoute\""
+scalar ReseauRoute.noeud[2] #received 0
+scalar ReseauRoute.noeud[2] #sent 0
+par ReseauRoute.noeud[3] typename "\"NoeudRoute\""
+scalar ReseauRoute.noeud[3] #received 0
+scalar ReseauRoute.noeud[3] #sent 0
+par ReseauRoute.noeud[4] typename "\"NoeudRoute\""
+scalar ReseauRoute.noeud[4] #received 7
+scalar ReseauRoute.noeud[4] #sent 7
+par ReseauRoute.noeud[5] typename "\"NoeudRoute\""
+scalar ReseauRoute.noeud[5] #received 0
+scalar ReseauRoute.noeud[5] #sent 0
+par ReseauRoute.noeud[6] typename "\"NoeudRoute\""
+scalar ReseauRoute.noeud[6] #received 3
+scalar ReseauRoute.noeud[6] #sent 3
+par ReseauRoute.noeud[7] typename "\"NoeudRoute\""
+scalar ReseauRoute.noeud[7] #received 2
+scalar ReseauRoute.noeud[7] #sent 2
+par ReseauRoute.noeud[8] typename "\"NoeudRoute\""
+scalar ReseauRoute.noeud[8] #received 0
+scalar ReseauRoute.noeud[8] #sent 0
+par ReseauRoute.noeud[9] typename "\"NoeudRoute\""
+scalar ReseauRoute.noeud[9] #received 1
+scalar ReseauRoute.noeud[9] #sent 0
+par ReseauRoute typename "\"ReseauRoute\""
+
