@@ -1,0 +1,114 @@
+version 3
+run General-0-20261022-11:01:51-17884
+attr configname General
+attr datetime 20261022-11:01:51
+attr datetimef 20261022-110151
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network JetonPeriodique
+attr processid 17884
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network JetonPeriodique
+config JetonPeriodique.*.nb 8
+config JetonPeriodique.*.d 5
+
+par JetonPeriodique.n1.out.channel typename "\"ned.DelayChannel\""
+par JetonPeriodique.n1.out.channel disabled false
+attr mutable ""
+par JetonPeriodique.n1.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par JetonPeriodique.n2.out.channel typename "\"ned.DelayChannel\""
+par JetonPeriodique.n2.out.channel disabled false
+attr mutable ""
+par JetonPeriodique.n2.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par JetonPeriodique.n3.out.channel typename "\"ned.DelayChannel\""
+par JetonPeriodique.n3.out.channel disabled false
+attr mutable ""
+par JetonPeriodique.n3.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par JetonPeriodique.n4.out.channel typename "\"ned.DelayChannel\""
+par JetonPeriodique.n4.out.channel disabled false
+attr mutable ""
+par JetonPeriodique.n4.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par JetonPeriodique.n5.out.channel typename "\"ned.DelayChannel\""
+par JetonPeriodique.n5.out.channel disabled false
+attr mutable ""
+par JetonPeriodique.n5.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par JetonPeriodique.n6.out.channel typename "\"ned.DelayChannel\""
+par JetonPeriodique.n6.out.channel disabled false
+attr mutable ""
+par JetonPeriodique.n6.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par JetonPeriodique.n7.out.channel typename "\"ned.DelayChannel\""
+par JetonPeriodique.n7.out.channel disabled false
+attr mutable ""
+par JetonPeriodique.n7.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par JetonPeriodique.n8.out.channel typename "\"ned.DelayChannel\""
+par JetonPeriodique.n8.out.channel disabled false
+attr mutable ""
+par JetonPeriodique.n8.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par JetonPeriodique.n9.out.channel typename "\"ned.DelayChannel\""
+par JetonPeriodique.n9.out.channel disabled false
+attr mutable ""
+par JetonPeriodique.n9.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par JetonPeriodique.n10.out.channel typename "\"ned.DelayChannel\""
+par JetonPeriodique.n10.out.channel disabled false
+attr mutable ""
+par JetonPeriodique.n10.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par JetonPeriodique.n1 typename "\"NoeudPeriodique\""
+par JetonPeriodique.n1 nb 8
+par JetonPeriodique.n1 d 5
+par JetonPeriodique.n2 typename "\"NoeudPeriodique\""
+par JetonPeriodique.n2 nb 8
+par JetonPeriodique.n2 d 5
+par JetonPeriodique.n3 typename "\"NoeudPeriodique\""
+par JetonPeriodique.n3 nb 8
+par JetonPeriodique.n3 d 5
+par JetonPeriodique.n4 typename "\"NoeudPeriodique\""
+par JetonPeriodique.n4 nb 8
+par JetonPeriodique.n4 d 5
+par JetonPeriodique.n5 typename "\"NoeudPeriodique\""
+par JetonPeriodique.n5 nb 8
+par JetonPeriodique.n5 d 5
+par JetonPeriodique.n6 typename "\"NoeudPeriodique\""
+par JetonPeriodique.n6 nb 8
+par JetonPeriodique.n6 d 5
+par JetonPeriodique.n7 typename "\"NoeudPeriodique\""
+par JetonPeriodique.n7 nb 8
+par JetonPeriodique.n7 d 5
+par JetonPeriodique.n8 typename "\"NoeudPeriodique\""
+par JetonPeriodique.n8 nb 8
+par JetonPeriodique.n8 d 5
+par JetonPeriodique.n9 typename "\"NoeudPeriodique\""
+par JetonPeriodique.n9 nb 8
+par JetonPeriodique.n9 d 5
+par JetonPeriodique.n10 typename "\"NoeudPeriodique\""
+par JetonPeriodique.n10 nb 8
+par JetonPeriodique.n10 d 5
+par JetonPeriodique typename "\"JetonPeriodique\""
+
